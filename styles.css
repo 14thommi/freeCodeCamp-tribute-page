@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Pastor Of Muppets";
+    src: url("./metallica-font/Pastor\ of\ Muppets.TTF")
+}
+
+* {
+    border: 1px dotted red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #000;
+    background-image: url("./img/master-of-puppets.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    height: 100%;
+
+    font-family: "Palatino","Book Antiqua",sans-serif;
+    font-size: 1.1rem;
+}
+
+
+main {
+    width: 70%;
+    min-width: 300px;
+    margin: 50px auto;
+    background-color: rgba(255,255,255,0.85);
+    border-radius: 20px;
+}
+
+header,
+#introduction,
+#content {
+    padding: 50px 50px 0 50px;
+}
+
+footer {
+    padding: 50px 50px;
+}
+
+header,
+#introduction {
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 30px 50px 20px 50px;
+}
+
+
+/* Assignment Requirements */
+#image,
+#tribute-info,
+#tribute-quote,
+#tribute-find-out-more,
+.author {
+    margin: 0 auto; /* centered */
+    max-width: 80%; /* include a max-width */
+    min-width: 200px; /* include a min-width */
+    /* Can not exceed original size */
+}
+
+
+#image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+
+#title p {
+    font-size: 1.5rem;
+}
+
+/* Element Styles */
+li {
+    padding-top: 20px;
+    list-style: none;
+}
+
+/* ID Styles */
+#title h1 {
+    font-family: "Pastor of Muppets", sans-serif;
+    font-size: 4.5rem;
+}
+
+#img-caption,
+#img-credit {
+    margin: 20px;
+    font-size: 1rem;
+}
+
+#tribute-quote,
+#tribute-find-out-more {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#tribute-quote {
+    font-style: italic;
+}
+
+/* Class Styles */
+.bold {
+    font-weight: 700;
+}
+
+.flip-horizontal {
+    display: inline-block;
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.metallica {
+    display: inline-block;
+    font-family: "Pastor of Muppets", sans-serif;
+    font-size: 3rem;
+}
+
+.small {
+    font-size: 1.6rem;
+}
+
+.quote-author {
+    display: block;
+    font-weight: 700;
+}
+
+.author {
+    text-align: center;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
