@@ -34,6 +34,9 @@ Build an app that is functionally similar to [Sample Tribute Page](https://tribu
 9. Your img element should be centered within its parent element
 
 ## Credit
+
 Master of Puppets image, Christopher Long: https://v13.net/wp-content/uploads/metallica_-_master_of_puppets.jpg
+
 Metallica group photo, Michael Ochs Archives: https://www.gettyimages.com/detail/news-photo/bass-guitarist-cliff-burton-drummer-lars-ulrich-vocals-news-photo/1202089448
+
 Metallica font, Ray Larabie: https://www.dafontfree.co/metallica-font/
